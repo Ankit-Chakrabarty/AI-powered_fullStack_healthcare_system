@@ -1,0 +1,11 @@
+Model Information:
+* title:	Medikit medical supplies box
+* source:	https://sketchfab.com/3d-models/medikit-medical-supplies-box-3c53be0431e2486da35f35b990c0f67c
+* author:	hopefuldesign (https://sketchfab.com/hopefuldesign)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Medikit medical supplies box" (https://sketchfab.com/3d-models/medikit-medical-supplies-box-3c53be0431e2486da35f35b990c0f67c) by hopefuldesign (https://sketchfab.com/hopefuldesign) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
