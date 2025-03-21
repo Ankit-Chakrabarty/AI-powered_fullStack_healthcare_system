@@ -33,7 +33,7 @@ const Chatbot = () => {
   };
 
   const handleDoctorSelection = (doctor) => {
-    navigate(`/doctors/${doctor.replace(/\s+/g, "-").toLowerCase()}`);
+    navigate(`/doctors/${doctor}`);
   };
 
   const handleUnavailableDoctor = () => {
@@ -112,7 +112,7 @@ const Chatbot = () => {
 
       {isDoctorSelection && !isThankYou && (
         <div className="mt-4 grid grid-cols-2 sm:grid-cols-3 gap-2">
-          {["General Physician", "Gynecologist", "Dermatologist", "Pediatrician", "Neurologist", "Gastroenterologist"].map((doctor) => (
+          {["General physician", "Gynecologist", "Dermatologist", "Pediatricians", "Neurologist", "Gastroenterologist"].map((doctor) => (
             <button
               key={doctor}
               onClick={() => handleDoctorSelection(doctor)}

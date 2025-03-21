@@ -1,3 +1,6 @@
+# Advanced_Healthcare_System
+Full_Stack_AI_Healthcare_System
+
 cd backend->>npm install-->>npm run server
 cd admin-->>npm install-->npm run dev
 ******************************************************************************************************************************
@@ -32,3 +35,9 @@ npm run server-----st
 base64=>upload pic=>copy image
 online json stringify✅convert one form to another✅(frontend assets.js)
 =======================================================================================================================
+=======================================================================================================================
+3D model import====>>>>
+Sketchfab-->>glb format-->>gltf
+glb...
+npm i three @react-three/fiber @react-three/drei
+npm i gsap

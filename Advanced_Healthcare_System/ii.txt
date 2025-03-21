@@ -1,4 +1,0 @@
-Sketchfab-->>glb format-->>gltf
-glb...
-npm i three @react-three/fiber @react-three/drei
-npm i gsap
