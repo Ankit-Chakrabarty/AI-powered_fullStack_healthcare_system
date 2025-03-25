@@ -1,0 +1,226 @@
+/* Chat UI Styles */
+.tabs {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  
+  .tab-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .tab-button {
+    padding: 0.75rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .tab-button.active {
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 0.75rem;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  
+  .card-header {
+    padding: 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-description {
+    color: #666;
+  }
+  
+  .card-content {
+    padding: 1.5rem;
+  }
+  
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+  }
+  
+  .chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 1rem;
+    padding-right: 0.5rem;
+  }
+  
+  .welcome-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    color: #666;
+  }
+  
+  .message {
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .user-message {
+    flex-direction: row-reverse;
+  }
+  
+  .avatar {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .user-message .avatar {
+    background-color: #b45309;
+  }
+  
+  .ai-message .avatar {
+    background-color: #1f2937;
+  }
+  
+  .message-content {
+    max-width: 80%;
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+  }
+  
+  .user-message .message-content {
+    background-color: #b45309;
+    color: white;
+    border-top-right-radius: 0;
+  }
+  
+  .ai-message .message-content {
+    background-color: #f3f4f6;
+    color: #1f2937;
+    border-top-left-radius: 0;
+  }
+  
+  .chat-input-form {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .chat-input {
+    flex: 1;
+    padding: 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  .send-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #b45309;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .send-button:hover:not(:disabled) {
+    background-color: #92400e;
+  }
+  
+  .send-button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .benefits-box {
+    background-color: #fef3c7;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .benefits-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  
+  .benefits-list li {
+    margin-bottom: 0.25rem;
+  }
+  
+  .primary-button {
+    padding: 0.75rem 1.5rem;
+    background-color: #b45309;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .primary-button:hover {
+    background-color: #92400e;
+  }
+  
+  .typing-indicator {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  
+  .typing-indicator span {
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: #9ca3af;
+    border-radius: 50%;
+    animation: typing 1.4s infinite ease-in-out both;
+  }
+  
+  .typing-indicator span:nth-child(1) {
+    animation-delay: -0.32s;
+  }
+  
+  .typing-indicator span:nth-child(2) {
+    animation-delay: -0.16s;
+  }
+  
+  @keyframes typing {
+    0%,
+    80%,
+    100% {
+      transform: scale(0.4);
+    }
+    40% {
+      transform: scale(1.0);
+    }
+  }
+  
+  
